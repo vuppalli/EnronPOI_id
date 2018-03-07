@@ -13,8 +13,6 @@ features_list = ['poi','salary', 'bonus', 'long_term_incentive']
 ### Load the dictionary containing the dataset
 with open("final_project_dataset.pkl", "r") as data_file:
     data_dict = pickle.load(data_file)
-
-### Remove outliers
     
 ### Store to my_dataset for easy export below.
 my_dataset = data_dict
